@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;  
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 85%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/donation0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#banner{
+    text-align: center;
+    
+}
+.heading{
+    font-size: 55px;
+    color: #00a8ff;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 750;
+}
+.heading span{
+    color: #f0932b;
+}
+.text{
+    color:#F79F1F;
+    text-align: justify;
+    line-height: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    margin: 10px 0;
+}
+.btn1{
+    width: 160px;
+    margin-top: 40px;
+    padding: 13px 0;
+    font-size: 17px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #E21717;
+    color: #fff200;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color: #E21717;
+    color: #fff;
+}
+.content{
+    text-align: center;
+    margin: 50px auto;
+}
+.content h1{
+    font-size: 55px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #3ae374;
+}
+.content p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #3B3B98;
+
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.five_half{
+    flex-basis: 10%;
+    height: 80px;
+    box-sizing: border-box;
+    
+    margin-left: 25px;
+    box-shadow: 10px 10px 20px grey;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.five_half h3{
+    color: #009432;
+    font-size: 22px;
+   
+    
+    
+}
+.five_half.active{
+    background-color: #F8EFBA;
+    border: 2px solid #FEA47F;
+}
+
+.amount{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: #778ca3;
+}
+.line{
+    width: 500px;
+    height: 2px;
+    background-color: #3B3B98;
+    margin: 0 auto;
+    
+}
+.btn2{
+    width: 160px;
+    margin: 40px;
+    padding: 13px 0;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00a8ff;
+    border: 2px solid #00a8ff;
+    color: #fff200;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40px auto;
+ }
+ .btn2:hover{
+    background-color: #E21717;
+    color: #fff;
+    border: 2px solid #E21717;
+}
+.plan{
+    text-align: center;
+    margin: 40px 0;
+}
+.plan h1{
+    color: #f0932b;
+}
+.plan p{
+    margin: 10px 0;
+    color: #009432;
+    font-size: 17px;
+    line-height: 20px;
+}
+.boxer{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+.content_box{
+    text-align: center;
+    flex-basis: 30%;
+    border: 2px solid #009432;
+    padding: 20px 10px;
+    margin-left: 15px;
+    background-color: #F8EFBA;
+    height: 200px;
+
+
+}
+.content_box p{
+    font-size: 15px;
+    color: #3867d6;
+}
+.content_box h2{
+    padding: 5px 0;
+    color: #f0932b;
+}
+.section{
+    display: flex;
+    margin: 40px 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.two_half{
+    flex-basis: 45%;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 50px;
+   
+    
+}
+.two_half h1{
+    font-size: 40px;
+    font-weight: 700;
+    color:#3ae374;
+}
+.two_half h1 span{
+    color: #F79F1F;
+}
+.two_half P{
+    text-align: justify;
+    margin-top: 30px;
+    color: #c44569;
+    line-height: 23px;
+    font-size: 16px;
+}
+.pic{
+    display: block;
+    
+    width: 90%;
+    border-radius: 20px;
+  
+}
+.btn3{
+    width: 190px;
+    margin: 40px;
+    padding: 13px 0;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00a8ff;
+    border: 2px solid #00a8ff;
+    color: #fff200;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn3:hover{
+    background-color: #fff200;
+    color: #E21717;
+    border: 2px solid #fff200;
+}
