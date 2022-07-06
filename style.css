@@ -97,11 +97,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 .five_half h3{
     color: #009432;
     font-size: 22px;
+    
    
     
     
